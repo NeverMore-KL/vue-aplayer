@@ -1,0 +1,818 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>使用 · Vue-APlayer-Plugin</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-vuejs/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="usage.html" />
+    
+    
+    <link rel="prev" href="install.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    自述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="install.html">
+            
+                <a href="install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="install.html">
+            
+                <a href="install.html#直接下载--cdn-引用">
+            
+                    
+                    直接下载 / CDN 引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="install.html">
+            
+                <a href="install.html#npm">
+            
+                    
+                    NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="install.html">
+            
+                <a href="install.html#yarn">
+            
+                    
+                    Yarn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="usage.html">
+            
+                <a href="usage.html">
+            
+                    
+                    使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="usage.html">
+            
+                <a href="usage.html#初始化-html-结构">
+            
+                    
+                    初始化 HTML 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="usage.html">
+            
+                <a href="usage.html#初始化-vue-实例">
+            
+                    
+                    初始化 Vue 实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="usage.html">
+            
+                <a href="usage.html#props">
+            
+                    
+                    Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="usage.html">
+            
+                <a href="usage.html#api">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="usage.html">
+            
+                <a href="usage.html#事件">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="usage.html">
+            
+                <a href="usage.html#歌词">
+            
+                    
+                    歌词
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="usage.html">
+            
+                <a href="usage.html#lrc-歌词格式">
+            
+                    
+                    LRC 歌词格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.2" data-path="usage.html">
+            
+                <a href="usage.html#lrc-字符串">
+            
+                    
+                    LRC 字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.3" data-path="usage.html">
+            
+                <a href="usage.html#lrc-文件">
+            
+                    
+                    LRC 文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.4" data-path="usage.html">
+            
+                <a href="usage.html#异步-api-歌词">
+            
+                    
+                    异步 API 歌词
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h1>
+<p>&#x4E3A;&#x4E86;&#x964D;&#x4F4E;&#x65B0;&#x624B;&#x7684;&#x4F7F;&#x7528;&#x96BE;&#x5EA6;&#x672C;&#x6587;&#x6863;&#x91C7;&#x7528; CDN &#x7684;&#x65B9;&#x5F0F;&#x4F7F;&#x7528;</p>
+<h3 id="&#x521D;&#x59CB;&#x5316;-html-&#x7ED3;&#x6784;">&#x521D;&#x59CB;&#x5316; HTML &#x7ED3;&#x6784;</h3>
+<pre class="language-"><code class="lang-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment" spellcheck="true">&lt;!-- &#x6A21;&#x5757;&#x5316;&#x5F00;&#x53D1;&#x4E0B;&#x4F7F;&#x7528; &lt;APlayer /&gt; --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a-player</span>
+    <span class="token attr-name">:narrow</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>narrow<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:autoplay</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>autoplay<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:showlrc</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>showlrc<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:mutex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mutex<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:fold</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>fold<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:speed</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>speed<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:theme</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>theme<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:mode</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mode<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>preload<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:listmaxheight</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>listmaxheight<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:music</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>music<span class="token punctuation">&quot;</span></span>
+  <span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a-player</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>//cdn.bootcss.com/vue/2.4.1/vue.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>/path/to/vue-aplayer-plugin.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h3 id="&#x521D;&#x59CB;&#x5316;-vue-&#x5B9E;&#x4F8B;">&#x521D;&#x59CB;&#x5316; Vue &#x5B9E;&#x4F8B;</h3>
+<pre class="language-"><code class="lang-js"><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  el<span class="token punctuation">:</span> <span class="token string">&apos;#app&apos;</span><span class="token punctuation">,</span>
+  data<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    narrow<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    autoplay<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showlrc<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    mutex<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    fold<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    speed<span class="token punctuation">:</span> <span class="token number">1.35</span><span class="token punctuation">,</span>
+    theme<span class="token punctuation">:</span> <span class="token string">&apos;#b7daff&apos;</span><span class="token punctuation">,</span>
+    mode<span class="token punctuation">:</span> <span class="token string">&apos;circulation&apos;</span><span class="token punctuation">,</span>
+    preload<span class="token punctuation">:</span> <span class="token string">&apos;metadata&apos;</span><span class="token punctuation">,</span>
+    listmaxheight<span class="token punctuation">:</span> <span class="token string">&apos;115px&apos;</span><span class="token punctuation">,</span>
+    music<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+      title<span class="token punctuation">:</span> <span class="token string">&apos;&#x672C;&#x8272;&apos;</span><span class="token punctuation">,</span>
+      author<span class="token punctuation">:</span> <span class="token string">&apos;&#x6CE0;&#x9E22;yousa&apos;</span><span class="token punctuation">,</span>
+      url<span class="token punctuation">:</span> <span class="token string">&apos;https://m10.music.126.net/20170720161530/2a23eac0e150339ce9f072648f61f5a9/ymusic/731f/d1d3/6884/0ef39bebf0050d11580b46b72b32e99d.mp3&apos;</span><span class="token punctuation">,</span>
+      pic<span class="token punctuation">:</span> <span class="token string">&apos;https://p1.music.126.net/fTSpa8Et436YQ7eWTvkL0Q==/17963820974811393.jpg&apos;</span><span class="token punctuation">,</span>
+      lrc<span class="token punctuation">:</span> <span class="token string">&apos;[by:Raidou]\n[by:raidou]\n[ti:&#x672C;&#x8272;]\n[ar:&#x6CE0;&#x9E22;yousa]\n[re:lrc-maker (https://weirongxu.github.io/lrc-maker/)]\n[ve:0.1.0]\n[length:05:14]\n[00:00.00] &#x4F5C;&#x66F2; : HTT\n[00:01.00] &#x4F5C;&#x8BCD; : &#x5DE6;&#x8033;&#x4EE5;&#x4E1C;\n[00:39.97]&#x5929;&#x751F;&#x59A9;&#x5A9A;&#x98CE;&#x6D41;&#x4FCF;&#x6A21;&#x6837;\n[00:43.72]&#x504F;&#x5AC1;&#x4E94;&#x5C3A;&#x77ED;&#x513F;&#x90CE;\n[00:46.48]&#x8C37;&#x6811;&#x76AE; &#x4E09;&#x5BF8;&#x4E01;\n[00:47.98]&#x591C;&#x591C;&#x7A7A;&#x5BF9; &#x6789;&#x81EA;&#x7ED3;&#x6101;&#x80A0;\n[00:52.73]&#x751F;&#x5C31;&#x5A09;&#x5A77;&#x8885;&#x5A1C;&#x597D;&#x8EAB;&#x6BB5;\n[00:55.97]&#x82E5;&#x4E3A;&#x5A3C; &#x65E0;&#x59A8;\n[00:58.72]&#x51A0;&#x82B1;&#x8857; &#x538B;&#x7FA4;&#x82B3;\n[01:00.98]&#x8EAB;&#x65E0;&#x6240;&#x62D8; &#x5FC3;&#x65E0;&#x7586;\n[01:42.98][03:41.34]&#x5A07;&#x83BA;&#x5E94;&#x548C;&#x557C;&#x5A49;&#x8F6C;\n[01:45.48][03:44.02]&#x91D1;&#x83B2;&#x98A4; &#x9752;&#x8471;&#x7F20; &#x4EAB;&#x5408;&#x6B22;\n[01:51.47][03:49.77]&#x76C8;&#x76C8;&#x9732;&#x6EF4;&#x6E7F;&#x7261;&#x4E39;\n[01:57.26][03:55.52]&#x7FE9;&#x7FE9;&#x7C89;&#x8776;&#x6697;&#x5077;&#x9999;\n[02:03.51][04:01.52]&#x5012;&#x6D47;&#x7EA2;&#x70DB;&#x591C;&#x884C;&#x8239;\n[02:06.76][04:05.27]&#x9C7C;&#x6C34;&#x540C;&#x6B22;&#x8D74;&#x5DEB;&#x5C71;\n[02:09.76][04:08.02]&#x957F;&#x776B;&#x5026; &#x5A9A;&#x9AA8;&#x8F6F; &#x518D;&#x8D2A;&#x6B22;\n[02:15.76][03:25.34][04:15.40][00:35.47][01:26.72]\n[02:39.19]&#x9E3F;&#x5112;&#x767D;&#x4E01;&#x6B63;&#x895F;&#x8BAE;&#x4F26;&#x5E38;\n[02:42.19]&#x9152;&#x9611;&#x6A2A;&#x5367;&#x6E29;&#x67D4;&#x4E61;\n[02:44.94]&#x8D4F;&#x90D1;&#x58F0; &#x8BDD;&#x9AD8;&#x5510;\n[02:46.94]&#x7537;&#x513F;&#x672C;&#x8272; &#x77EB;&#x9970;&#x5180;&#x6D41;&#x82B3;\n[02:50.69]&#x672A;&#x5C06;&#x5987;&#x5FB7;&#x5973;&#x6212;&#x6B63;&#x773C;&#x671B;\n[02:54.44]&#x6709;&#x7F18;&#x4EBA; &#x653E;&#x6D6A;\n[02:57.19]&#x5343;&#x592B;&#x6307; &#x53C8;&#x4F55;&#x5E72;&#xFF1F;\n[02:59.19]&#x4F11;&#x8981;&#x8F9C;&#x8D1F; &#x597D;&#x76AE;&#x56CA;\n[03:02.69][01:04.23]&#x659C;&#x9633;&#x542B;&#x7F9E;&#x8D8A;&#x82B1;&#x7A97;\n[03:05.69][01:06.98]&#x6D6E;&#x4E91;&#x5E26;&#x602F;&#x5077;&#x773C;&#x671B;\n[03:08.69][01:09.98]&#x7F8E;&#x4EBA;&#x5FAE;&#x91BA;&#x8863;&#x534A;&#x655E;\n[03:14.19][01:16.23]&#x9752;&#x4E1D;&#x534A;&#x7EFE;&#x6175;&#x501A;&#x5E8A;\n[03:17.44][01:18.97]&#x661F;&#x7738;&#x521D;&#x6CDB;&#x6F4B;&#x6EDF;&#x5149;\n[03:20.19][01:21.98]&#x6A80;&#x53E3;&#x8F7B;&#x542F;&#x5410;&#x5170;&#x82B3;\n[03:26.09][01:27.23]&#x91D1;&#x98CE;&#x7389;&#x9732;&#x76F8;&#x9022;&#x665A;\n[03:31.84][01:33.48]&#x94F6;&#x76D8;&#x659C;&#x504E;&#x4E4C;&#x4E91;&#x6F2B;\n[03:37.84][01:39.47]&#x8F7B;&#x62E2;&#x6162;&#x637B;&#x6311;&#x62B9;&#x5FD9;\n[04:42.54]&#x5E10;&#x6696;&#x826F;&#x5BB5;&#x77ED;\n[04:45.79]&#x5929;&#x8272;&#x5FFD;&#x5DF2;&#x665A;\n[04:48.99]&#x5FD9;&#x7740;&#x7F57;&#x889C;&#x91CD;&#x6574;&#x88C5;\n[04:53.24]&#x501A;&#x95E8;&#x56DE;&#x9996; &#x5E26;&#x7B11;&#x542B;&#x60C5;&#x592E;\n&apos;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  created <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>narrow <span class="token operator">=</span> <span class="token boolean">false</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>autoplay <span class="token operator">=</span> <span class="token boolean">true</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>showlrc <span class="token operator">=</span> <span class="token boolean">true</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>mutex <span class="token operator">=</span> <span class="token boolean">true</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>fold <span class="token operator">=</span> <span class="token boolean">false</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>speed <span class="token operator">=</span> <span class="token number">1.35</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>theme <span class="token operator">=</span> <span class="token string">&apos;&apos;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>mode <span class="token operator">=</span> <span class="token string">&apos;singer&apos;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>preload <span class="token operator">=</span> <span class="token string">&apos;metadta&apos;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>listmaxheight <span class="token operator">=</span> <span class="token string">&apos;115px&apos;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>music<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="props">Props</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x540D;&#x79F0;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x9ED8;&#x8BA4;&#x503C;</th>
+<th style="text-align:center">&#x5FC5;&#x586B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">narrow</td>
+<td style="text-align:left"><code>boolean</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x662F;&#x5426;&#x4EE5;&#x8FF7;&#x4F60;&#x6A21;&#x5F0F;&#x663E;&#x793A;</td>
+</tr>
+<tr>
+<td style="text-align:left">autoplay</td>
+<td style="text-align:left"><code>boolean</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x662F;&#x5426;&#x81EA;&#x52A8;&#x64AD;&#x653E;</td>
+</tr>
+<tr>
+<td style="text-align:left">showlrc</td>
+<td style="text-align:left"><code>boolean</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x662F;&#x5426;&#x663E;&#x793A;&#x6B4C;&#x8BCD;</td>
+</tr>
+<tr>
+<td style="text-align:left">mutex</td>
+<td style="text-align:left"><code>boolean</code></td>
+<td style="text-align:left"><code>true</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x662F;&#x5426;&#x4E92;&#x65A5; &#x6682;&#x505C;&#x5176;&#x4ED6;&#x5B9E;&#x4F8B;&#xFF08;&#x591A;&#x6807;&#x7B7E;&#x9875;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">fold</td>
+<td style="text-align:left"><code>boolean</code></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x662F;&#x5426;&#x6536;&#x8D77;&#x64AD;&#x653E;&#x5217;&#x8868;</td>
+</tr>
+<tr>
+<td style="text-align:left">speed</td>
+<td style="text-align:left"><code>number</code></td>
+<td style="text-align:left">1</td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x64AD;&#x653E;&#x901F;&#x5EA6; &#x6570;&#x503C;&#x8D8A;&#x5927;&#x901F;&#x5EA6;&#x8D8A;&#x5FEB;</td>
+</tr>
+<tr>
+<td style="text-align:left">theme</td>
+<td style="text-align:left"><code>string</code></td>
+<td style="text-align:left"><code>&apos;#ad7a86&apos;</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x4E3B;&#x9898;&#x989C;&#x8272;</td>
+</tr>
+<tr>
+<td style="text-align:left">mode</td>
+<td style="text-align:left"><code>type</code></td>
+<td style="text-align:left"><code>&apos;circulation&apos;</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x64AD;&#x653E;&#x6A21;&#x5F0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">preload</td>
+<td style="text-align:left"><code>type</code></td>
+<td style="text-align:left"><code>&apos;auto&apos;</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x9884;&#x52A0;&#x8F7D;&#x6A21;&#x5F0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">listmaxheight</td>
+<td style="text-align:left"><code>string</code></td>
+<td style="text-align:left"><code>&apos;auto&apos;</code></td>
+<td style="text-align:center">&#x2715;</td>
+<td style="text-align:left">&#x64AD;&#x653E;&#x5217;&#x8868;&#x6700;&#x5927;&#x9AD8;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:left">music</td>
+<td style="text-align:left"><code>Array<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>T</span><span class="token punctuation">&gt;</span></span></code></td>
+<td style="text-align:left"><code>[]</code></td>
+<td style="text-align:center">&#x2713;</td>
+<td style="text-align:left">&#x64AD;&#x653E;&#x5217;&#x8868;&#x6B4C;&#x66F2;</td>
+</tr>
+</tbody>
+</table>
+<p><strong><code>mode</code> &#x53EF;&#x9009;&#x503C;&#xFF1A;</strong></p>
+<ul>
+<li><strong><code>circulation</code></strong> : &#x5217;&#x8868;&#x5FAA;&#x73AF;</li>
+<li><strong><code>singer</code></strong> : &#x5355;&#x66F2;&#x5FAA;&#x73AF;</li>
+<li><strong><code>random</code></strong> : &#x968F;&#x673A;&#x64AD;&#x653E;</li>
+<li><strong><code>order</code></strong> : &#x987A;&#x5E8F;&#x64AD;&#x653E;</li>
+</ul>
+<p><strong><code>music</code> &#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#xFF1A;</strong></p>
+<ul>
+<li><strong><code>id</code></strong> : &#x4E3B;&#x952E;&#xFF0C;&#x5982;&#x679C;&#x4E3A;&#x7A7A;&#x5219;&#x4E3A;&#x6570;&#x7EC4;&#x4E2D;&#x5BF9;&#x5E94;&#x7684;&#x7D22;&#x5F15;</li>
+<li><strong><code>title</code></strong> : &#x6B4C;&#x66F2;&#x540D;&#x79F0;&#xFF0C;&#x5FC5;&#x586B;</li>
+<li><strong><code>author</code></strong> : &#x6B4C;&#x66F2;&#x4F5C;&#x8005;&#xFF0C;&#x9009;&#x586B;</li>
+<li><strong><code>url</code></strong> : &#x6B4C;&#x66F2;&#x64AD;&#x653E;&#x5730;&#x5740;&#xFF0C;&#x5FC5;&#x586B;</li>
+<li><strong><code>pic</code></strong> : &#x6B4C;&#x66F2;&#x56FE;&#x7247;&#x5730;&#x5740;&#xFF0C;&#x9009;&#x586B;</li>
+<li><strong><code>lrc</code></strong> : LRC &#x6B4C;&#x8BCD;&#x5730;&#x5740;&#x6216;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x9009;&#x586B;</li>
+</ul>
+<h3 id="api">API</h3>
+<p>&#x516C;&#x5F00;&#x4E86;&#x4EE5;&#x4E0B;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<ul>
+<li><code>ap.play()</code> // &#x7EE7;&#x7EED;&#x64AD;&#x653E;</li>
+<li><code>ap.play(index)</code> // &#x64AD;&#x653E;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x6B4C;&#x66F2;</li>
+<li><code>ap.play(music)</code> // &#x64AD;&#x653E;&#x6307;&#x5B9A;&#x6B4C;&#x66F2;</li>
+<li><code>ap.pause()</code> // &#x6682;&#x505C;&#x64AD;&#x653E;</li>
+<li><code>ap.toggle()</code> // &#x5207;&#x6362;&#x64AD;&#x653E;&#x72B6;&#x6001;&#xFF08;&#x5F53;&#x524D;&#x6682;&#x505C;&#x5219;&#x64AD;&#x653E;&#xFF0C;&#x5F53;&#x524D;&#x64AD;&#x653E;&#x5219;&#x6682;&#x505C;&#xFF09;</li>
+<li><code>ap.toggleVolume()</code> // &#x5207;&#x6362;&#x9759;&#x97F3;&#x72B6;&#x6001;</li>
+<li><code>ap.setMusic(music)</code> // &#x91CD;&#x8BBE;&#x5F53;&#x524D;&#x64AD;&#x653E;&#x66F2;&#x76EE;&#x4FE1;&#x606F;&#xFF08;&#x4EC5;&#x8BBE;&#x7F6E;&#x4FE1;&#x606F;&#x4E0D;&#x5207;&#x6362;&#x64AD;&#x653E;&#xFF09;</li>
+<li><code>ap.currentMusic</code> // [&#x53EA;&#x8BFB;] &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x64AD;&#x653E;&#x7684;&#x6B4C;&#x66F2;&#x4FE1;&#x606F; &#x5982;&#x679C;&#x8981;&#x4FEE;&#x6539;&#x4FE1;&#x606F;&#x8BF7;&#x4F7F;&#x7528; <code>ap.setMusic(music)</code></li>
+<li><code>ap.audio</code> // [&#x53EA;&#x8BFB;] &#x83B7;&#x53D6;&#x64AD;&#x653E;&#x5668;&#x4F9D;&#x8D56;&#x7684; <code>HTMLAudioElement</code> &#x5BF9;&#x8C61;</li>
+</ul>
+<p><strong>&#x4EC5;&#x63D0;&#x4F9B;&#x6700;&#x57FA;&#x7840;&#x548C;&#x5E38;&#x7528;&#x7684; API &#xFF0C;&#x56E0;&#x4E3A;&#x6240;&#x6709; Props &#x90FD;&#x662F; <a href="https://cn.vuejs.org/v2/guide/reactivity.html" target="_blank">&#x54CD;&#x5E94;&#x5F0F;</a> &#x7ED1;&#x5B9A;&#x7684;&#x3002;</strong>
+<strong>&#x6240;&#x4EE5;&#x5982;&#x679C;&#x60A8;&#x9700;&#x8981;&#x5F80;&#x64AD;&#x653E;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x6B4C;&#x66F2;&#x53EA;&#x9700;&#x8981;&#x5F80; <code>music</code> &#x6570;&#x7EC4;&#x4E2D; <code>push</code> &#x5BF9;&#x8C61;&#x5373;&#x53EF;&#x3002;</strong></p>
+<h3 id="&#x4E8B;&#x4EF6;">&#x4E8B;&#x4EF6;</h3>
+<p>&#x652F;&#x6301;&#x6240;&#x6709;&#x539F;&#x751F; Media &#x4E8B;&#x4EF6;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5C5E;&#x6027;</th>
+<th style="text-align:left">&#x503C;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">onabort</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5728;&#x9000;&#x51FA;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">oncanplay</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x6587;&#x4EF6;&#x5C31;&#x7EEA;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x64AD;&#x653E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#xFF08;&#x7F13;&#x51B2;&#x5DF2;&#x8DB3;&#x591F;&#x5F00;&#x59CB;&#x65F6;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">oncanplaythrough</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x80FD;&#x591F;&#x65E0;&#x9700;&#x56E0;&#x7F13;&#x51B2;&#x800C;&#x505C;&#x6B62;&#x5373;&#x53EF;&#x64AD;&#x653E;&#x81F3;&#x7ED3;&#x5C3E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">ondurationchange</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x957F;&#x5EA6;&#x6539;&#x53D8;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onemptied</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x53D1;&#x751F;&#x6545;&#x969C;&#x5E76;&#x4E14;&#x6587;&#x4EF6;&#x7A81;&#x7136;&#x4E0D;&#x53EF;&#x7528;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#xFF08;&#x6BD4;&#x5982;&#x8FDE;&#x63A5;&#x610F;&#x5916;&#x65AD;&#x5F00;&#x65F6;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">onended</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x5DF2;&#x5230;&#x8FBE;&#x7ED3;&#x5C3E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#xFF08;&#x53EF;&#x53D1;&#x9001;&#x7C7B;&#x4F3C;&#x201C;&#x611F;&#x8C22;&#x89C2;&#x770B;&#x201D;&#x4E4B;&#x7C7B;&#x7684;&#x6D88;&#x606F;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">onerror</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5728;&#x6587;&#x4EF6;&#x52A0;&#x8F7D;&#x671F;&#x95F4;&#x53D1;&#x751F;&#x9519;&#x8BEF;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onloadeddata</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x5DF2;&#x52A0;&#x8F7D;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onloadedmetadata</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5143;&#x6570;&#x636E;&#xFF08;&#x6BD4;&#x5982;&#x5206;&#x8FA8;&#x7387;&#x548C;&#x65F6;&#x957F;&#xFF09;&#x88AB;&#x52A0;&#x8F7D;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onloadstart</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x8F7D;&#x4E14;&#x672A;&#x5B9E;&#x9645;&#x52A0;&#x8F7D;&#x4EFB;&#x4F55;&#x6570;&#x636E;&#x524D;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onpause</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x88AB;&#x7528;&#x6237;&#x6216;&#x7A0B;&#x5E8F;&#x6682;&#x505C;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onplay</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x5DF2;&#x5C31;&#x7EEA;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x64AD;&#x653E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onplaying</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x5DF2;&#x5F00;&#x59CB;&#x64AD;&#x653E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onprogress</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x6D4F;&#x89C8;&#x5668;&#x6B63;&#x5728;&#x83B7;&#x53D6;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onratechange</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x6BCF;&#x5F53;&#x56DE;&#x653E;&#x901F;&#x7387;&#x6539;&#x53D8;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#xFF08;&#x6BD4;&#x5982;&#x5F53;&#x7528;&#x6237;&#x5207;&#x6362;&#x5230;&#x6162;&#x52A8;&#x4F5C;&#x6216;&#x5FEB;&#x8FDB;&#x6A21;&#x5F0F;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">onreadystatechange</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x6BCF;&#x5F53;&#x5C31;&#x7EEA;&#x72B6;&#x6001;&#x6539;&#x53D8;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#xFF08;&#x5C31;&#x7EEA;&#x72B6;&#x6001;&#x76D1;&#x6D4B;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x7684;&#x72B6;&#x6001;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">onseeked</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53; seeking &#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x4E3A; false&#xFF08;&#x6307;&#x793A;&#x5B9A;&#x4F4D;&#x5DF2;&#x7ED3;&#x675F;&#xFF09;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onseeking</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53; seeking &#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x4E3A; true&#xFF08;&#x6307;&#x793A;&#x5B9A;&#x4F4D;&#x662F;&#x6D3B;&#x52A8;&#x7684;&#xFF09;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onstalled</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E0D;&#x8BBA;&#x4F55;&#x79CD;&#x539F;&#x56E0;&#x672A;&#x80FD;&#x53D6;&#x56DE;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onsuspend</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5728;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x5B8C;&#x5168;&#x52A0;&#x8F7D;&#x4E4B;&#x524D;&#x4E0D;&#x8BBA;&#x4F55;&#x79CD;&#x539F;&#x56E0;&#x7EC8;&#x6B62;&#x53D6;&#x56DE;&#x5A92;&#x4ECB;&#x6570;&#x636E;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">ontimeupdate</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x64AD;&#x653E;&#x4F4D;&#x7F6E;&#x6539;&#x53D8;&#x65F6;&#xFF08;&#x6BD4;&#x5982;&#x5F53;&#x7528;&#x6237;&#x5FEB;&#x8FDB;&#x5230;&#x5A92;&#x4ECB;&#x4E2D;&#x4E00;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x4F4D;&#x7F6E;&#x65F6;&#xFF09;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onvolumechange</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x6BCF;&#x5F53;&#x97F3;&#x91CF;&#x6539;&#x53D8;&#x65F6;&#xFF08;&#x5305;&#x62EC;&#x5C06;&#x97F3;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x9759;&#x97F3;&#xFF09;&#x65F6;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;</td>
+</tr>
+<tr>
+<td style="text-align:left">onwaiting</td>
+<td style="text-align:left">script</td>
+<td style="text-align:left">&#x5F53;&#x5A92;&#x4ECB;&#x5DF2;&#x505C;&#x6B62;&#x64AD;&#x653E;&#x4F46;&#x6253;&#x7B97;&#x7EE7;&#x7EED;&#x64AD;&#x653E;&#x65F6;&#x8FD0;&#x884C;&#x811A;&#x672C;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x6B4C;&#x8BCD;">&#x6B4C;&#x8BCD;</h3>
+<h5 id="lrc-&#x6B4C;&#x8BCD;&#x683C;&#x5F0F;">LRC <a href="https://zh.wikipedia.org/wiki/LRC%E6%A0%BC%E5%BC%8F" target="_blank">&#x6B4C;&#x8BCD;&#x683C;&#x5F0F;</a></h5>
+<pre class="language-"><code>[ti:&#x6B4C;&#x8BCD;(&#x6B4C;&#x66F2;)&#x7684;&#x6807;&#x9898;]
+[al:&#x672C;&#x6B4C;&#x6240;&#x5728;&#x7684;&#x5531;&#x7247;&#x96C6;]
+[ar:&#x6F14;&#x51FA;&#x8005;-&#x6B4C;&#x624B;]
+[au:&#x6B4C;&#x8BCD;&#x4F5C;&#x8005;-&#x4F5C;&#x66F2;&#x5BB6;]
+[by:&#x6B64;LRC&#x6587;&#x4EF6;&#x7684;&#x521B;&#x5EFA;&#x8005;]
+[offset:+/- &#x4EE5;&#x6BEB;&#x79D2;&#x4E3A;&#x5355;&#x4F4D;&#x52A0;&#x5FEB;&#x6216;&#x5EF6;&#x540E;&#x6B4C;&#x8BCD;&#x7684;&#x64AD;&#x653E;]
+
+[re:&#x521B;&#x5EFA;&#x6B64;LRC&#x6587;&#x4EF6;&#x7684;&#x64AD;&#x653E;&#x5668;&#x6216;&#x7F16;&#x8F91;&#x5668;]
+[ve:&#x7A0B;&#x5E8F;&#x7684;&#x7248;&#x672C;]
+
+[mm:ss.ms] &#x6211;&#x4EEC;&#x8FD9;&#x4E00;&#x8DEF;&#x8D70;&#x6765;&#x771F;&#x7684;&#x4E0D;&#x5BB9;&#x6613;
+[mm:ss.ms][mm:ss:ms] &#x591A;&#x5C11;&#x6B21;&#x6D41;&#x7740;&#x6CEA;&#x8BF4;&#x8FD8;&#x4E0D;&#x5982;&#x5206;&#x79BB;
+...
+</code></pre><h5 id="lrc-&#x5B57;&#x7B26;&#x4E32;">LRC &#x5B57;&#x7B26;&#x4E32;</h5>
+<pre class="language-"><code class="lang-js"><span class="token punctuation">{</span>
+  title<span class="token punctuation">:</span> <span class="token string">&apos;&#x6211;&#x4EEC;&#xFF08;Cover &#x6768;&#x6E05;&#x67E0;&amp;&#x738B;&#x4E50;&#x4E50;&#xFF09;&apos;</span><span class="token punctuation">,</span>
+  author<span class="token punctuation">:</span> <span class="token string">&apos;&#x9526;&#x96F6;&#xFF0F;&#x51E4;&#x4E5D;&apos;</span><span class="token punctuation">,</span>
+  url<span class="token punctuation">:</span> <span class="token string">&apos;path/to/music.mp3&apos;</span><span class="token punctuation">,</span>
+  pic<span class="token punctuation">:</span> <span class="token string">&apos;https://p4.music.126.net/4zCLh5OcpB8Hb2woMjSs3Q==/109951162978917893.jpg&apos;</span><span class="token punctuation">,</span>
+  lrc<span class="token punctuation">:</span> <span class="token string">&apos;[01:00.01]&#x6211;&#x4EEC;&#x8FD9;&#x4E00;&#x8DEF;&#x8D70;&#x6765;&#x771F;&#x7684;&#x4E0D;&#x5BB9;&#x6613;\n[01:00.06]&#x591A;&#x5C11;&#x6B21;&#x6D41;&#x7740;&#x6CEA;&#x8BF4;&#x8FD8;&#x4E0D;&#x5982;&#x5206;&#x79BB;&apos;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h5 id="lrc-&#x6587;&#x4EF6;">LRC &#x6587;&#x4EF6;</h5>
+<pre class="language-"><code class="lang-js"><span class="token punctuation">{</span>
+  title<span class="token punctuation">:</span> <span class="token string">&apos;&#x6211;&#x4EEC;&#xFF08;Cover &#x6768;&#x6E05;&#x67E0;&amp;&#x738B;&#x4E50;&#x4E50;&#xFF09;&apos;</span><span class="token punctuation">,</span>
+  author<span class="token punctuation">:</span> <span class="token string">&apos;&#x9526;&#x96F6;&#xFF0F;&#x51E4;&#x4E5D;&apos;</span><span class="token punctuation">,</span>
+  url<span class="token punctuation">:</span> <span class="token string">&apos;path/to/music.mp3&apos;</span><span class="token punctuation">,</span>
+  pic<span class="token punctuation">:</span> <span class="token string">&apos;https://p4.music.126.net/4zCLh5OcpB8Hb2woMjSs3Q==/109951162978917893.jpg&apos;</span><span class="token punctuation">,</span>
+  lrc<span class="token punctuation">:</span> <span class="token string">&apos;path/to/music.lrc&apos;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h5 id="&#x5F02;&#x6B65;-api-&#x6B4C;&#x8BCD;">&#x5F02;&#x6B65; API &#x6B4C;&#x8BCD;</h5>
+<pre class="language-"><code class="lang-js"><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  el<span class="token punctuation">:</span> <span class="token string">&apos;#app&apos;</span><span class="token punctuation">,</span>
+  data<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    music<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+      title<span class="token punctuation">:</span> <span class="token string">&apos;&#x6211;&#x4EEC;&#xFF08;Cover &#x6768;&#x6E05;&#x67E0;&amp;&#x738B;&#x4E50;&#x4E50;&#xFF09;&apos;</span><span class="token punctuation">,</span>
+      author<span class="token punctuation">:</span> <span class="token string">&apos;&#x9526;&#x96F6;&#xFF0F;&#x51E4;&#x4E5D;&apos;</span><span class="token punctuation">,</span>
+      url<span class="token punctuation">:</span> <span class="token string">&apos;path/to/music.mp3&apos;</span><span class="token punctuation">,</span>
+      pic<span class="token punctuation">:</span> <span class="token string">&apos;https://p4.music.126.net/4zCLh5OcpB8Hb2woMjSs3Q==/109951162978917893.jpg&apos;</span><span class="token punctuation">,</span>
+      lrc<span class="token punctuation">:</span> <span class="token keyword">null</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">async</span> created <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> data <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">await</span> Axios<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;https://api.quq.cat/lyric?id=491778843&apos;</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">.</span>code <span class="token operator">===</span> <span class="token number">200</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>music<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>lrc <span class="token operator">=</span> data<span class="token punctuation">.</span>lrc<span class="token punctuation">.</span>lyric
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="install.html#yarn" class="navigation navigation-prev " aria-label="Previous page: Yarn">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="usage.html#初始化-html-结构" class="navigation navigation-next " aria-label="Next page: 初始化 HTML 结构">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"使用","level":"1.3","depth":1,"next":{"title":"初始化 HTML 结构","level":"1.3.1","depth":2,"anchor":"#初始化-html-结构","path":"usage.md","ref":"usage.md#初始化-html-结构","articles":[]},"previous":{"title":"Yarn","level":"1.2.3","depth":2,"anchor":"#yarn","path":"install.md","ref":"install.md#yarn","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","edit-link","prism","theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git","-fontsettings","-highlight","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"vue-aplayer"},"github":{"url":"https://github.com/MoeFE/vue-aplayer"},"search":{},"theme-vuejs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"编辑此页面","base":"https://github.com/MoeFE/vue-aplayer/tree/dev/docs"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Vue-APlayer-Plugin","links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":">3.0.0"},"file":{"path":"usage.md","mtime":"2017-07-22T15:40:03.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-22T15:41:51.819Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
